@@ -12,8 +12,8 @@ def mysql_conn():
         host = "localhost",
         port = 3306,
         user = "root",
-        passwd = "izhiqundata",
-        db="izhiqunDB",
+        passwd = "你的数据库密码",
+        db="你的数据库名称",
         charset = "utf8"
     )
     return conn
